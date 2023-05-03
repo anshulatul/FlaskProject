@@ -28,15 +28,14 @@ app.config["DEBUG"] = True
 
 
 # connection details for azure DB
-try:
-    mydb = pyodbc.connect(driver="ODBC Driver 18 for SQL Server",
+mydb = pyodbc.connect(driver="ODBC Driver 18 for SQL Server",
                         host="giftportal.database.windows.net", database="giftportal",
                         uid="giftportal", pwd="Atul2001@")
-except pyodbc.Error as drror:
-        if drror.args[0] == "42000":
-            print('Try again later because your internet is slow and the database is timed out.')
-        else:
-            print('Add Your Ip first .')
+# except pyodbc.Error as drror:
+#         if drror.args[0] == "42000":
+#             print('Try again later because your internet is slow and the database is timed out.')
+#         else:
+#             print('Add Your Ip first .')
 
 
 # connection details for Google Cloud DB
