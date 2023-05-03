@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/ae61bf2b-5e01-4eb5-ac3d-0084d144c4f8/resourceGroups/egiftportal/providers/Microsoft.Web/sites/egiftportal",
+    "appService.deploySubpath": "."
+}
