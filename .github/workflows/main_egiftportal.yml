@@ -60,4 +60,4 @@ jobs:
         with:
           app-name: 'egiftportal'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_5EA705B3FBC34F6F842860E9C90CB387 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_F07439472BEF4A2CA5EF5533FB2E0F84 }}
